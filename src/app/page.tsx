@@ -8,7 +8,7 @@ export async function generateMetadata() {
         new URL(
           "/frames",
           process.env.NETLIFY_URL
-            ? `https://${process.env.NETLIFY_URL}`
+            ? `http://${process.env.NETLIFY_URL}`
             : "http://localhost:3000"
         )
       ))
